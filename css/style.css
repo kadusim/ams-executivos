@@ -1,0 +1,123 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #927A50;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#sidenav-overlay {
+  background-color: transparent;
+}
+
+.logo {
+  height: 56px;
+  width: auto;
+}
+
+.nav-link {
+  color: #927A50;
+  font-size: 19px;
+}
+
+.nav-color {
+  background-color: #141414;
+}
+
+.text-dou {
+  color: #927A50;
+  text-shadow: 0.5px 0.3px #5A4C35;
+}
+
+.text-dourado-claro {
+  color: #5A4C35;
+}
+
+.text-red {
+  color: #4F0A0D;
+  text-shadow: 0.5px 0.5px #5A4C35;
+}
+
+.text-red-bold {
+  color: #4F0A0D;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.btn {
+  background-color: #4F0A0D !important;
+}
+
+.container-espaco {
+  height: 56px;
+}
+
+.photo {
+  margin: 1px 0 0.5px 0;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.tels-align {
+  margin-right: 30px;
+}
+
+.btn-collor {
+  background-color: #927A50 !important;
+}
+
+.parallax-container {
+  height: 430px;
+}
